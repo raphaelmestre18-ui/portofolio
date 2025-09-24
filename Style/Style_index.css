@@ -1,0 +1,92 @@
+.rectangle_du_haut {
+            width: 100%;
+            background: #e3e0e0;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            height: 60px;
+            box-sizing: border-box;
+        }
+        .PRENOM_STYLE {
+            font-size: 1.2em;
+            font-family: 'Georgia', serif;
+            color: #222;
+            font-weight: bold;
+            margin-right: 60px;
+        }
+        .nav {
+            display: flex;
+            gap: 32px;
+            height: 100%;
+        }
+        .nav a {
+            color: #222;
+            text-decoration: none;
+            font-size: 1.15em;
+            font-family: 'Georgia', serif;
+            transition: color 0.2s, background 0.2s;
+            padding: 0 8px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            background: none;
+            border: none;
+            font-weight: normal;
+        }
+        .active {
+            color: #b0aead;
+            pointer-events: none;
+            background: none;
+        }
+        .nav a:hover:not(.active) {
+            color: #ff9800;
+            background: #eaeaea;
+        }
+        .Style_titre {
+            font-size: 4em;
+            font-family: 
+            color: #222;
+            font-weight: bold;
+            margin: 50px 0 20px 0;
+        }
+        .texte_gris {
+            color: grey;
+            font-size: 2em;
+            margin-top : 40px;
+            
+        }
+        .contenu-flex {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            justify-content: space-between;
+        }
+        .contenu-flex img {
+            align-self: flex-start;
+            margin-left: auto;
+        }
+        .boutons {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+.btn-black {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-outline {
+    background: #fff;
+    color: #222;
+    border: 2px solid #b0aead;
+    padding: 8px 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
