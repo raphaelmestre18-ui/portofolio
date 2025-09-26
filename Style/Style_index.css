@@ -90,3 +90,437 @@
 .bold {
     font-weight: bold;
 }
+
+/* Ajoute dans Style_index.css ou complète les classes existantes */
+
+/* Container principal des projets */
+.projets-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Titre de la page projets */
+.titre-projets {
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Liste des cartes projets */
+.project-list {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+/* Carte projet */
+.project-card {
+    display: flex;
+    border: 2px solid #888;
+    border-radius: 16px;
+    background: #fff;
+    min-height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image projet */
+.project-img {
+    width: 160px;
+    min-width: 120px;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #888;
+    border-right: 1px solid #ccc;
+}
+
+/* Contenu projet */
+.project-content {
+    flex: 1;
+    padding: 18px 24px 12px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header projet */
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* Titre projet */
+.project-title {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    color: #222;
+}
+
+/* Statut projet */
+.project-status {
+    font-size: 0.95em;
+    padding: 2px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.status-termine {
+    background: #d6f5c9;
+    color: #3a7d1c;
+    border: 1px solid #b7e6a1;
+}
+.status-cours {
+    background: #c9f5f5;
+    color: #1c7d7d;
+    border: 1px solid #a1e6e6;
+}
+
+/* Description projet */
+.project-desc {
+    color: #bbb;
+    font-size: 1.08em;
+    margin-bottom: 18px;
+}
+
+/* Footer projet */
+.project-footer {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 0.98em;
+    color: #444;
+}
+.project-footer span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.icon {
+    font-size: 1.1em;
+}
+
+/* Contact page styles */
+.contact-main {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-title {
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 18px;
+    font-family: 'Georgia', serif;
+}
+.contact-desc {
+    text-align: center;
+    font-size: 1.08em;
+    color: #444;
+    margin-bottom: 38px;
+    max-width: 700px;
+}
+.contact-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+}
+.contact-card {
+    background: #f7f3f3;
+    border: 2px solid #888;
+    border-radius: 16px;
+    padding: 32px 38px;
+    box-sizing: border-box;
+    width: 420px;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.contact-card h2 {
+    font-size: 1.15em;
+    margin-bottom: 12px;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+}
+.contact-linkedin {
+    font-size: 3em;
+    margin-bottom: 12px;
+}
+.contact-card p {
+    color: #bbb;
+    font-size: 1em;
+}
+.contact-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.08em;
+}
+.contact-info-label {
+    font-weight: bold;
+}
+.contact-info-icon {
+    font-size: 1.3em;
+    color: #888;
+}
+@media (max-width: 900px) {
+    .contact-grid {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .contact-card {
+        width: 98%;
+        min-width: unset;
+    }
+}
+/* Responsive */
+@media (max-width: 700px) {
+    .project-list {
+        width: 98%;
+    }
+    .project-img {
+        width: 80px;
+        min-width: 80px;
+    }
+    .project-content {
+        padding: 10px 10px 8px 10px;
+    }
+}
+.veille-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin: 48px auto 0 auto;
+    max-width: 1200px;
+    width: 90%;
+}
+.veille-card {
+    background: #fff;
+    border: 2px solid #888;
+    border-radius: 16px;
+    padding: 24px 28px;
+    box-sizing: border-box;
+}
+.veille-title {
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.veille-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.veille-item {
+    background: #f7f7f7;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+.veille-item-title {
+    font-weight: bold;
+    font-size: 1.08em;
+    margin-bottom: 2px;
+}
+.veille-item-badge {
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    background: #e6f9d7;
+    color: #5cae2e;
+    font-size: 0.95em;
+    padding: 2px 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #c2e6b7;
+}
+.veille-method ul {
+    margin: 12px 0 0 0;
+    padding-left: 18px;
+}
+.veille-method li {
+    margin-bottom: 8px;
+}
+.veille-discover {
+    grid-column: 1 / span 2;
+    margin-top: 32px;
+}
+.veille-discover-card {
+    background: #fff;
+    border: 2px solid #888;
+    border-radius: 16px;
+    padding: 24px 28px;
+    box-sizing: border-box;
+}
+.veille-discover-title {
+    font-size: 1.12em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.discover-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.discover-item-title {
+    font-weight: bold;
+    font-size: 1.08em;
+    margin-bottom: 2px;
+}
+.discover-tags {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0;
+}
+.discover-tag {
+    background: #eee;
+    border-radius: 8px;
+    padding: 2px 12px;
+    font-size: 0.98em;
+    color: #444;
+    border: 1px solid #ccc;
+}
+.discover-date {
+    color: #bbb;
+    font-size: 0.98em;
+    margin-left: 12px;
+}
+@media (max-width: 900px) {
+    .veille-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .veille-discover {
+        grid-column: 1;
+    }
+}
+@media (max-width: 600px) {
+    .veille-card, .veille-discover-card {
+        padding: 12px 8px;
+    }
+}
+.stages-title {
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'Georgia', serif;
+}
+.stages-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.stage-card {
+    background: #fff;
+    border: 2px solid #888;
+    border-radius: 16px;
+    width: 320px;
+    min-width: 220px;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.stage-header {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #888;
+}
+.stage-img {
+    width: 140px;
+    height: 100px;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #888;
+}
+.stage-header-title {
+    flex: 1;
+    padding: 12px 10px 0 10px;
+    font-size: 1.08em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.stage-content {
+    padding: 18px 18px 12px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.stage-entreprise {
+    font-size: 1.08em;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+.stage-activites {
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 10px;
+}
+.stage-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.stage-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1em;
+    color: #888;
+}
+.stage-info-icon {
+    font-size: 1.2em;
+}
+.stage-resume {
+    margin-top: 10px;
+    color: #bbb;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-line;
+}
+@media (max-width: 1100px) {
+    .stages-grid {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .stage-card {
+        width: 98%;
+        min-width: unset;
+    }
+}
